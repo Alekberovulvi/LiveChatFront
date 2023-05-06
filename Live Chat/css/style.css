@@ -1,0 +1,128 @@
+/* Live Chat Button */
+.live-chat-button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 9999;
+  }
+  
+  .live-chat-toggle {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	background-color: green;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 20px;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Live Chat Form */
+  .live-chat-form {
+	display: none;
+	position: fixed;
+	bottom: 80px;
+	right: 20px;
+	z-index: 9999;
+	width: 300px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .live-chat-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: green;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+  }
+  
+  .live-chat-title {
+	margin: 0;
+  }
+  
+  .live-chat-close {
+	font-size: 18px;
+	color: #fff;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+  }
+  
+  .live-chat-body {
+	padding: 10px;
+  }
+  
+  .live-chat-options {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .live-chat-option {
+	margin-bottom: 5px;
+	padding: 5px;
+	background-color: #f5f5f5;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	outline: none;
+  }
+  
+  .live-chat-option:hover {
+	background-color: #e5e5e5;
+  }
+  
+  .live-chat-message-form {
+	display: none;
+	margin-top: 10px;
+  }
+  
+  .live-chat-message-form input,
+  .live-chat-message-form textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	outline: none;
+  }
+  
+  .live-chat-message-form textarea {
+	height: 100px;
+  }
+  
+  .start-conversation-button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: green;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+  }
+  
+  .start-conversation-button:hover {
+	background-color: #006400;
+  }
+  
